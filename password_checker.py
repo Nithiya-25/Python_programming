@@ -1,3 +1,4 @@
+#Password checker
 password = input("Enter the password : ")
 has_upper = False
 has_lower = False
@@ -19,4 +20,4 @@ if len(password) == 8:
         print("Invaild password")
 else:
     print("Invalid password")
-          
+    
