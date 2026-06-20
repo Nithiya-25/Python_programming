@@ -1,3 +1,4 @@
+# first non-repeating element
 lst = list(map(int, input("Enter the list").split()))
 freq = {}
 for x in lst:
@@ -6,3 +7,6 @@ for i in lst:
     if freq[i]==1:
         print(i)
         break
+#frequency counting pattern
+# Time complexity - O(n)
+# Space complexity - O(n)
