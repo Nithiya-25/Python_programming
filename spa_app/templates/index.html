@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎮 Stone Paper Scissor</h1>
+
+    <form method="POST">
+        <button type="submit" name="choice" value="stone">🪨 Stone</button>
+        <button type="submit" name="choice" value="paper">📄 Paper</button>
+        <button type="submit" name="choice" value="scissor">✂️ Scissor</button>
+    </form>
+
+    <div class="box">
+        <h2>You: {{ user }}</h2>
+        <h2>Computer: {{ computer }}</h2>
+        <h1>{{ result }}</h1>
+    </div>
+
+</div>
+
+</body>
+</html>
